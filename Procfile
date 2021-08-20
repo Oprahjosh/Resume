@@ -1,1 +1,1 @@
-web: gunicorn Resume.wsgi --log-file -
+web: gunicorn Opeyemi_CV.wsgi --log-file -
