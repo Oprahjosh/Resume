@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wcq1kb_@1)6#y_cjiptv1h93=27***t7ax8m6orzeap#ft%bue
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [resumemi.herokuapp.com]
+ALLOWED_HOSTS = ['resumemi.herokuapp.com', '127.0.0.1']
 
 import os
 
