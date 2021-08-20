@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
 {% load static %}
@@ -51,8 +50,15 @@
       <div class="container">
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="{ % static 'images/ope.jpg' %}" alt="Image"/></a></div>
-          <div class="h2 title">Opeyemi Fakoya</div>
+          {% block title %}
+<div class="h2 title">Opeyemi Fakoya</div>
+         {% endblock %}
+
+        {% block Content %}
           <p class="category text-white">Backend Developer, I.T support, Research Engineer </p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+
+          {% endblock %}
+
         </div>
       </div>
       <div class="section">
